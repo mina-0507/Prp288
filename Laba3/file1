@@ -1,0 +1,8 @@
+def split1(lst, n):
+    result = []
+    for i in range(n):
+        result.append([])
+    for i in range(len(lst)):
+        result[i % n].append(lst[i])
+    return result
+    
