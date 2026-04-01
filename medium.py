@@ -91,8 +91,3 @@ def test_calc1_v4():
 def test_calc_consistency():
     for n in range(1, 10):
         assert abs(calc1(n) - calc2(n)) < 0.0000001
-
-if __name__ == "__main__":
-    print("=" * 50)
-    print("ЗАПУСК ТЕСТОВ")
-    print("=" * 50)
